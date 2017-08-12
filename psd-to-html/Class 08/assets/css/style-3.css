@@ -1,0 +1,90 @@
+.slide-bg-1 {background: url(../img/slide-bg-1.jpg) no-repeat center center/cover}
+.slide-bg-2 {background: url(../img/slide-bg-2.jpg) no-repeat center center/cover}
+.slide-bg-3 {background: url(../img/slide-bg-3.jpg) no-repeat center center/cover}
+
+html,body {
+    height: 100%;
+}
+
+.homepage-slides,.single-slide-item,.owl-stage-outer, .owl-stage, .owl-item {
+  height: 100%;
+}
+.single-slide-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #2565dd, #1bc6ed);
+  left: 0;
+  top: 0;
+  opacity: .9;
+  z-index: -1;
+}
+.single-slide-item {
+  position: relative;
+  display: table;
+  width: 100%;
+  z-index: 1;
+  color: #fff;
+  line-height: 2;
+}
+.slide-item-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-slide-item h2 {
+  font-size: 65px;
+  color: #fff;
+}
+.video-play-btn {
+  height: 60px;
+  width: 60px;
+  display: inline-block;
+  background: #06d6a0;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 65px;
+  margin-top: 30px;
+  padding-left: 2px;
+  transition: .3s;
+}
+.video-play-btn:hover {
+    background: #373737;
+    color: #05bdfe;
+}
+
+
+.homepage-slides .owl-nav div {
+  left: 50px;
+  position: absolute;
+  top: 50%;
+  font-size: 35px;
+  color: #fff;
+  opacity: 0.5;
+  line-height: 30px;
+  margin-top: -15px;
+  transition: .3s;
+}
+.homepage-slides .owl-nav div.owl-next {
+  left: auto;
+  right: 50px;
+}
+.homepage-slides .owl-nav div:hover {
+  opacity: 1;
+}
+
+
+.header-area.header-absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 100%;
+}
+.header-absolute .mainmenu ul li a {
+  color: #fff;
+}
+.header-absolute .mainmenu ul li a:hover {
+  color: #06d6a0;
+}
+
