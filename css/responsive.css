@@ -1,0 +1,140 @@
+/*  medium desktop  */
+
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container {
+        width: 970px;
+    }
+    .s-about {
+        width: 90%;
+    }
+    .welcome-text h1 {
+        font-size: 65px;
+    }
+    .single-portfolio {
+        height: 300px;
+    }
+}
+
+
+/*  tablet phone */
+
+@media (min-width: 768px) and (max-width: 969px) {
+    .container {
+        width: 750px;
+    }
+    .welcome-text h2 {
+        font-size: 30px;
+    }
+    .welcome-text h1 {
+        font-size: 50px;
+    }
+    .s-about {
+        width: 100%;
+    }
+    .details {
+        width: 38%;
+    }
+    .logo img {
+        margin-left: 15px;
+    }
+    .footer-icon {
+        text-align: right;
+    }
+    
+    .single-portfolio {
+        height: 225px;
+    }
+    .single-portfolio:hover img {
+        margin-top: -60px;
+    }
+    .single-portfolio h3 {
+        font-size: 12px;
+    }
+    .single-portfolio h3 {
+        padding-top: 0px;
+}
+    .single-portfolio h3 span {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+}
+
+
+/*  unsmart phone */
+
+@media (max-width: 767px) {
+    .container, .s-about, .details {
+        width: 100%;
+    }
+    .slicknav_menu {
+        display: block;
+    }
+    
+    .logo {
+        text-align: center;
+    }
+    .slider-area, .top-area {
+        height: 400px;
+    }
+    .welcome-text h2{
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .welcome-text h1{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .welcome-text a {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .welcome-text-area{
+        bottom: 125px;
+    }
+    .details h3 {
+        padding-top: 15px;
+    }
+    .details, .about-list div:nth-child(2n) .details {
+        background-color: #fff;
+        border: 2px solid #f1f1f1;
+        float: none;
+        margin-bottom: 50px;
+        padding-right: 0;
+        text-align: center;
+    }
+    .s-img, .about-list div:nth-child(2n) .s-img {
+        margin: 0 auto;
+        float: none;
+    }
+    .about-list::before {
+        z-index: -1;
+    }
+    .single-portfolio {
+        height: 335px;
+    }
+    .team-text {
+        padding: 0px;
+    }
+    .logo-logo img {
+        margin-left: 0px;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+    .footer-area p {
+        text-align: center;
+    }
+    
+}
+
+
+/* smart phone */
+
+@media (min-width: 468px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .single-portfolio {
+        height: 420px;
+    }
+}
