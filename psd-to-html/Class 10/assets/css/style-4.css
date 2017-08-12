@@ -1,0 +1,132 @@
+.homepage-hero-area-4{background: url(../img/hero-area-4.jpg) no-repeat center center/cover}
+
+
+
+.menu-trigger,.search-trigger {
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.homepage-hero-area-4 {
+  height: 100%;
+}
+.single-slide-item h2 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 55px;
+}
+.single-slide-item::after {
+  background: #073b4c;
+  opacity: .25;
+}
+.single-slide-item {
+  line-height: 1.7;
+}
+.single-slide-item p {
+  line-height: 28px;
+}
+.website-checker-form-2 input[type="submit"] {
+  width: 14.6%;
+}
+.website-checker-form-2 {
+  margin-top: 35px;
+}
+.website-checker-form-2 input[type="submit"]:hover {
+  color: #373737;
+  background: #06d6a0;  
+}
+.website-checker-form-2 input[type="url"], .website-checker-form-2 input[type="text"], .website-checker-form-2 input[type="email"] {
+  color: #fff;
+  background: #073b4c;
+  border-color: #073b4c;
+}
+
+.off-canvas-menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  z-index: 99;
+  background: #fff;
+  height: 100%;
+  padding: 35px;
+  opacity: 0;
+  transition: .5s;
+}
+.off-canvas-menu.show-off-canvas-menu {
+    left: 0;
+    opacity: 1;
+}
+
+.off-canvas-menu, .off-canvas-menu a {
+  color: #373737;
+}
+.menu-close i {
+  margin-right: 7px;
+}
+.menu-close {
+  padding: 7px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.off-canvas-menu ul.off-canvas-sub {
+  margin: 180px 0 0 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2.2;
+}
+.off-canvas-menu li a {
+  font-size: 20px;
+  font-weight: 400;
+  transition: .3s;
+}
+.off-canvas-menu li a:hover {
+  color: #06d6a0;
+}
+
+.off-canvas-menu-shade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #073b4c;
+    opacity: .84;
+    height: 100%;
+    width: 100%;
+    z-index: 98;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.off-canvas-menu-shade.active {
+    opacity: .84;
+    visibility: visible;
+}
+
+
+.off-canvas-menu-footer {
+  position: absolute;
+  bottom: 2%;
+}
+.off-canvas-menu-footer h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+.off-canvas-menu-footer ul {
+  list-style: none;
+  margin: 30px 0 0 0;
+  padding: 0;
+}
+.off-canvas-menu-footer li {
+  display: inline-block;
+  width: 48%;
+  margin-bottom: 10px;
+}
+.off-canvas-menu-footer li a {
+  font-size: 15px;
+  font-weight: 300;
+}
+.off-canvas-menu-footer li a i {
+  margin-right: 10px;
+}
