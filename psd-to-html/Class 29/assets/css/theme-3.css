@@ -1,0 +1,200 @@
+
+/* ==================================================================
+  [Layout]
+
+  * body
+      + Base CSS
+          -Fonts CSS
+      + Menu CSS
+          -Search box CSS
+      + Breadcrumb CSS
+      + Owl carousel CSS
+      + Services CSS
+      + Tile gallery CSS
+      + Hero area CSS
+      + Pricing CSS
+      + Case studies CSS
+          -case study V1/V2 CSS 
+
+===================================================================== */
+
+
+/*=====================
+      Base CSS
+=======================*/
+body {font-size: 15px;}
+.box-btn, input[type="submit"], button[type="submit"] {
+  font-weight: 600;
+  background-color: #06d6a0;
+}
+.box-btn:hover, input[type="submit"]:hover {background: #373737;}
+
+/*=====================
+      Menu CSS
+=======================*/
+.mainmenu ul li a:hover {color: #06d6a0;}
+
+  /*-------------------
+      Search box CSS 
+  ---------------------*/
+  .search-it {
+    position: fixed;
+    display: table;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: -webkit-linear-gradient(left, #2565dd, #1bc6ed);
+    background: linear-gradient(to right, #2565dd, #1bc6ed);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    visibility: hidden;
+    -webkit-transition: .5s;
+    transition: .5s;
+  }
+  .search-it.active {
+    opacity: .9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    visibility: visible;
+  }
+  .search-it-box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .search-it-box input {
+      background: transparent;
+      padding: 20px 55px;
+      border: 4px solid #06d6a0;
+      display: inline-block;
+      letter-spacing: 3px;
+      text-align: center;
+      -webkit-transition: .3s;
+      transition: .3s;
+  }
+  .search-it-box input[placeholder] {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+  }
+  .search-it-box input::-webkit-input-placeholder {
+    color: #fff;
+  }
+  .search-it-box input[type="submit"] {
+      letter-spacing: inherit;
+      font-size: 28px;
+      padding: 21px 45px;
+      margin-left: 30px;
+      -webkit-transition: .3s;
+      transition: .3s;
+      background: #06d6a0;
+      border-radius: 0;
+  }
+  .search-it .menu-close-2 {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    color: #fff;
+    font-size: 50px;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .search-it .menu-close-2:hover {color: #0b7edf;}
+  .search-it-box input:focus,.search-it-box input[type=submit]:hover {
+      background: #0b7edf;
+      border-color: #1b7edf;
+  }
+
+/*=====================
+      Breadcrumb CSS 
+=======================*/
+.breadcrumb-area h2 {
+    font-size: 33px;
+    margin-bottom: 8px;
+    line-height: 45px;
+}
+.breadcrumb-area p {font-size: 16px;}
+
+/*==========================
+     Owl carousel CSS 
+============================*/
+.testimonial-carousel .owl-dot.active {background: #06d6a0;}
+
+/*=====================
+     Services CSS 
+=======================*/
+.theme-3 .single-service-box:hover .service-icon, .single-service-box:hover h3 {color: #373737;}
+
+/*=======================
+     Tile gallery CSS
+=========================*/
+.tile-gallery-text.pdt100 {padding: 100px 0;}
+.tile-gallery-text.pdl20 {padding: 0 20px 0 0;}
+.tile-gallery-text.pdt0 {padding: 0;}
+.tile-gallery-text{padding: 30px 0 0 0;}
+.tile-gallery-text h3 {font-size: 22px;}
+.tile-gallery-text p { margin-bottom: 30px;
+}
+
+/*=====================
+     Pricing  CSS 
+=======================*/
+.pricing-count {color: #06d6a0;}
+.single-pricing-box:hover, .single-pricing-box:hover .pricing-heading {border-color: #06d6a0;}
+.single-feature-item h4 {font-weight: 700;}
+
+/*=====================
+      Hero area  CSS
+=======================*/
+.hero-form {box-shadow:8px 8px rgba(248, 248, 248, 1), -1px 1px 6px #f4f4f4}
+
+/*==========================
+     Case studies CSS 
+============================*/
+.single-case-cell {
+  background: none;
+  position: relative;
+  z-index: 1;
+}
+.single-case-cell:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #06d6a0;
+  opacity: .9;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+  z-index: -1;
+}
+.single-case-cell h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.single-case-cell p {font-size: 14px;}
+.case-study-more {
+  background: none;
+  margin-top: 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.4;
+  height: 0;
+  width: 0;
+  margin-left: -15px;
+}
+.case-study-more:hover {
+  background: none;
+  color: #373737;
+}
+
+  /*--------------------------
+      case study V1/V2 CSS 
+  ----------------------------*/
+  .case-study-v1, .case-study-v2 {margin: -15px 0;}
+  .case-study-v1 .single-case, .case-study-v2 .case-study-box-preview {
+      height: 300px;
+      margin: 15px 0;
+  }

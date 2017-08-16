@@ -1,0 +1,32 @@
+
+
+
+
+::selection{background: #34495e;color: #fff}
+::-moz-selection{background: #34495e;color: #fff;}
+
+.mainmenu ul li a:hover, .theme-1 .mainmenu li:hover > a, .theme-1 .menu-cta h4 span, .single-service-box:hover .service-icon, .single-service-box:hover h3, .single-service-box:hover .service-readmore-btn,.pricing-count, .footer-area ul.social-links a:hover,.footer-area ul.social-links a:hover i, .footer-area.theme-2 ul.social-links.blue a:hover, .footer-area.theme-2 ul.social-links.blue a:hover i, .mainmenu li:hover > a, .single-service-box-2 i, .testimonial-icon, .theme-2 .pricing-count, .single-pricing-box.theme-2:hover .pricing-heading h4, .single-pricing-box.theme-2:hover .pricing-heading p, .blog-readmore-btn, .menu-cta h4 span, .header-absolute .mainmenu ul li:hover > a, .theme-3 .single-service-box:hover .service-readmore-btn, .footer-area-2 a:hover, .copyright-area-2 a:hover, .search-trigger-3:hover, .search-box .search-trigger:hover, .menu-close:hover, .off-canvas-menu li a:hover,.off-canvas-menu li a:hover, .footer-area.theme-2 ul.social-links a:hover, .footer-area.theme-2 ul.social-links a:hover i, .footer-area.theme-4 a:hover, .feature-icon, .service-icon-table, .footer-area.service-v1 ul.social-links a:hover, .footer-area.service-v1 ul.social-links a:hover i, .service-v1 .single-service-box:hover .service-icon, .service-v1 .single-service-box:hover h3, .service-v1 .single-service-box:hover .service-readmore-btn, .contact-icon, .search-it .menu-close-2:hover, .video-play-btn:hover, .search-trigger-2.mobile-search {
+ 	color: #34495e
+}
+.box-btn, input[type="submit"], button[type="submit"], .theme-1 .mainmenu ul.sub-menu li:hover > a, .gray-bg .single-case-cell, .testimonial-carousel .owl-dot.active, .mainmenu ul.sub-menu li:hover > a, .case-box-btn:hover, .theme-2 .case-box-btn:hover, .video-play-btn, .search-it-box input[type="submit"], .single-case-cell::after, .menu-trigger:hover span, .active .testimonial-content, .theme-2 .comment-area input[type="submit"], .mobile-green .slicknav_btn, .mobile-green .slicknav_item.slicknav_row:hover, .mobile-green .slicknav_nav a:hover {
+ 	background: #34495e;
+}
+.single-service-box:hover, .single-pricing-box:hover, .single-pricing-box:hover .pricing-heading, .search-it-box input, .theme-3 .single-service-box:hover, .service-v1 .single-service-box:hover{
+ 	border-color: #34495e;
+}			
+.case-study-cell::after, .single-service-box-2::before,.cta-area.theme-2, .cta-area.theme-3::after, .single-slide-item::after, .search-it {
+	background: linear-gradient(to top, #252323, #5B5B69);
+}
+.header-absolute .mainmenu ul.sub-menu li:hover > a, .search-trigger-2.mobile-search:hover {
+    color: #fff;
+}
+.active .testimonial-box-shape {
+	border-color: transparent #34495e transparent transparent;
+}
+
+.gm-style .gm-style-iw {
+    background: #34495e !important;
+}
+.gm-style div div div div div div div div {
+    background-color: #34495e !important;
+}
