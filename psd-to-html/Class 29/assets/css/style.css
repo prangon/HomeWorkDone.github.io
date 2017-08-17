@@ -62,7 +62,7 @@
   -----------------*/
   @import url('https://fonts.googleapis.com/css?family=Khula:300,400,600,700');
 
-html, body {height: 100%;}
+html, body, .site {height: 100%;}
 body {
     font-family: 'Khula', sans-serif;
     font-size: 15px;
@@ -1206,7 +1206,7 @@ input[type="submit"], button[type="submit"] {
   margin-top: 10px;
 }
 
-.site, .homepage-slides, .single-slide-item, .owl-stage-outer, .owl-stage, .owl-item {height: 100%;}
+.homepage-slides, .single-slide-item, .owl-stage-outer, .owl-stage, .owl-item {height: 100%;}
 .homepage-slides .owl-nav div {
   left: 50px;
   position: absolute;
@@ -1668,14 +1668,19 @@ ul#colors li {
 }
 
 body.box-layout {
-  background: blanchedalmond;
+  background: linear-gradient(to left, #f9f9f9, #fff) no-repeat fixed;
   position: relative;
 }
 .box-layout .site {
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 30px auto;
   background: #fff;
   overflow: hidden;
+  height: auto;
+  box-shadow: 0 0 6px #f0f0f0;
+}
+.box-layout .homepage-hero-area-4, .box-layout .single-slide-item {
+	height: 600px;
 }
 /*==============
      FAQ CSS
